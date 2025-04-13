@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from schemas.phone import PhoneCreate, Phone, StatusPayload
+from schemas.phone import PhoneCreate, Phone, StatusPayload, PhoneTwo
 from crud.phone_crud import create_phone, get_phone, get_phones, delete_phone, update_timestamp, update_phone_active_status, update_geolocation
 from db.database import SessionLocal
 from datetime import datetime
@@ -25,9 +25,18 @@ def create(phone: PhoneCreate, db: Session = Depends(get_db)):
 def read(phone_id: int, db: Session = Depends(get_db)):
     return get_phone(db, phone_id)
 
-@router.get("/phones/", response_model=list[Phone])
+
+@router.get("/phones/", response_model=list[PhoneTwo])
 def read_all(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    return get_phones(db, skip, limit)
+    phones = get_phones(db, skip, limit)
+
+    for phone in phones:
+        if isinstance(phone.timestatus, timedelta):
+            # Naprawiamy timedelta → datetime (np. z dzisiejszą datą)
+            print(f"⚠️ Fixing timestatus for phone {phone.id_phone}")
+            phone.timestatus = datetime.combine(datetime.today().date(), (datetime.min + phone.timestatus).time())
+
+    return phones
 
 @router.delete("/phones/{phone_id}")
 def delete(phone_id: int, db: Session = Depends(get_db)):

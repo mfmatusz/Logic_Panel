@@ -37,8 +37,9 @@ def update_phone_active_status(db: Session, phone_id: int, is_active: bool):
 
 def update_timestamp(db: Session, phone_id: int):
     phone = db.query(Phone).filter(Phone.id_phone == phone_id).first()
+    time_full = datetime.now()
     if phone:
-        phone.timestatus = datetime.now().strftime("%H:%M:%S")
+        phone.timestatus = time_full
         db.commit()
         db.refresh(phone)
         return phone

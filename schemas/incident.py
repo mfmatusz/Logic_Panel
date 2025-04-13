@@ -15,3 +15,11 @@ class Incident(IncidentBase):
 
     class Config:
         orm_mode = True
+
+class StatusPayload(IncidentBase):
+    id_incident: str
+    battery: int
+    X_coordinate: str
+    Y_coordinate: str
+    geolocation: int
+    battery: int

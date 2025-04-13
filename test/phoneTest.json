@@ -1,0 +1,552 @@
+[
+  {
+    "Id_Phone": 1,
+    "location": [
+      48.433538,
+      35.617284
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-04-25T14:48:19Z",
+    "Group": 1,
+    "batteryLevel": 42
+  },
+  {
+    "Id_Phone": 2,
+    "location": [
+      47.662966,
+      30.680565
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-04T01:54:18Z",
+    "Group": 5,
+    "batteryLevel": 14
+  },
+  {
+    "Id_Phone": 3,
+    "location": [
+      51.966793,
+      32.114816
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-15T08:12:00Z",
+    "Group": 3,
+    "batteryLevel": 25
+  },
+  {
+    "Id_Phone": 4,
+    "location": [
+      49.242836,
+      28.658159
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-04-19T08:34:23Z",
+    "Group": 1,
+    "batteryLevel": 16
+  },
+  {
+    "Id_Phone": 5,
+    "location": [
+      48.748425,
+      33.911148
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-04-29T10:35:57Z",
+    "Group": 5,
+    "batteryLevel": 37
+  },
+  {
+    "Id_Phone": 6,
+    "location": [
+      48.959104,
+      33.021839
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-04-02T00:20:23Z",
+    "Group": 2,
+    "batteryLevel": 9
+  },
+  {
+    "Id_Phone": 7,
+    "location": [
+      47.72031,
+      34.054739
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-02-22T04:22:39Z",
+    "Group": 5,
+    "batteryLevel": 38
+  },
+  {
+    "Id_Phone": 8,
+    "location": [
+      50.136766,
+      24.476863
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-07T12:05:49Z",
+    "Group": 5,
+    "batteryLevel": 89
+  },
+  {
+    "Id_Phone": 9,
+    "location": [
+      48.203448,
+      38.336605
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-18T16:26:41Z",
+    "Group": 4,
+    "batteryLevel": 8
+  },
+  {
+    "Id_Phone": 10,
+    "location": [
+      45.44676,
+      33.481836
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-22T20:49:44Z",
+    "Group": 1,
+    "batteryLevel": 12
+  },
+  {
+    "Id_Phone": 11,
+    "location": [
+      50.626391,
+      30.938008
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-01T05:44:41Z",
+    "Group": 2,
+    "batteryLevel": 62
+  },
+  {
+    "Id_Phone": 12,
+    "location": [
+      51.580368,
+      25.366297
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-02-22T22:35:55Z",
+    "Group": 1,
+    "batteryLevel": 41
+  },
+  {
+    "Id_Phone": 13,
+    "location": [
+      49.324328,
+      23.683093
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-03-13T10:53:14Z",
+    "Group": 2,
+    "batteryLevel": 46
+  },
+  {
+    "Id_Phone": 14,
+    "location": [
+      50.582328,
+      25.022685
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-11T22:31:40Z",
+    "Group": 2,
+    "batteryLevel": 93
+  },
+  {
+    "Id_Phone": 15,
+    "location": [
+      47.99808,
+      38.455667
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-12T15:34:42Z",
+    "Group": 5,
+    "batteryLevel": 68
+  },
+  {
+    "Id_Phone": 16,
+    "location": [
+      48.513829,
+      38.098525
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-27T23:56:07Z",
+    "Group": 5,
+    "batteryLevel": 63
+  },
+  {
+    "Id_Phone": 17,
+    "location": [
+      49.966744,
+      32.104863
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-02-02T11:13:28Z",
+    "Group": 3,
+    "batteryLevel": 6
+  },
+  {
+    "Id_Phone": 18,
+    "location": [
+      46.549456,
+      33.621789
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-04-15T22:22:01Z",
+    "Group": 4,
+    "batteryLevel": 94
+  },
+  {
+    "Id_Phone": 19,
+    "location": [
+      47.212409,
+      29.757274
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-02-04T20:32:46Z",
+    "Group": 4,
+    "batteryLevel": 68
+  },
+  {
+    "Id_Phone": 20,
+    "location": [
+      48.938308,
+      29.19103
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-25T04:58:37Z",
+    "Group": 4,
+    "batteryLevel": 87
+  },
+  {
+    "Id_Phone": 21,
+    "location": [
+      46.475549,
+      33.786248
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-24T13:19:19Z",
+    "Group": 2,
+    "batteryLevel": 51
+  },
+  {
+    "Id_Phone": 22,
+    "location": [
+      46.962833,
+      36.015412
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-27T07:51:07Z",
+    "Group": 1,
+    "batteryLevel": 6
+  },
+  {
+    "Id_Phone": 23,
+    "location": [
+      45.465758,
+      34.077695
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-20T17:11:21Z",
+    "Group": 5,
+    "batteryLevel": 84
+  },
+  {
+    "Id_Phone": 24,
+    "location": [
+      51.419613,
+      26.99996
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-04-10T05:56:38Z",
+    "Group": 4,
+    "batteryLevel": 81
+  },
+  {
+    "Id_Phone": 25,
+    "location": [
+      46.134233,
+      32.428056
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-11T06:49:39Z",
+    "Group": 5,
+    "batteryLevel": 41
+  },
+  {
+    "Id_Phone": 26,
+    "location": [
+      51.332326,
+      32.19081
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-01-31T17:41:18Z",
+    "Group": 4,
+    "batteryLevel": 1
+  },
+  {
+    "Id_Phone": 27,
+    "location": [
+      48.84851,
+      39.618565
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-03-13T00:56:34Z",
+    "Group": 3,
+    "batteryLevel": 76
+  },
+  {
+    "Id_Phone": 28,
+    "location": [
+      51.540975,
+      31.539715
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-02-20T13:14:07Z",
+    "Group": 3,
+    "batteryLevel": 12
+  },
+  {
+    "Id_Phone": 29,
+    "location": [
+      50.974074,
+      34.024474
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-03-01T03:46:36Z",
+    "Group": 4,
+    "batteryLevel": 12
+  },
+  {
+    "Id_Phone": 30,
+    "location": [
+      50.332982,
+      34.74725
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-02T19:23:03Z",
+    "Group": 4,
+    "batteryLevel": 8
+  },
+  {
+    "Id_Phone": 31,
+    "location": [
+      50.985025,
+      33.654545
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-04-22T08:57:39Z",
+    "Group": 1,
+    "batteryLevel": 85
+  },
+  {
+    "Id_Phone": 32,
+    "location": [
+      50.377287,
+      26.54947
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-27T15:54:32Z",
+    "Group": 2,
+    "batteryLevel": 30
+  },
+  {
+    "Id_Phone": 33,
+    "location": [
+      49.454289,
+      22.999689
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-02-09T08:37:44Z",
+    "Group": 3,
+    "batteryLevel": 91
+  },
+  {
+    "Id_Phone": 34,
+    "location": [
+      48.550776,
+      35.956791
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-23T18:40:41Z",
+    "Group": 4,
+    "batteryLevel": 88
+  },
+  {
+    "Id_Phone": 35,
+    "location": [
+      50.462165,
+      27.267422
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-02T14:42:45Z",
+    "Group": 1,
+    "batteryLevel": 54
+  },
+  {
+    "Id_Phone": 36,
+    "location": [
+      48.200556,
+      24.438259
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-19T12:22:03Z",
+    "Group": 3,
+    "batteryLevel": 75
+  },
+  {
+    "Id_Phone": 37,
+    "location": [
+      49.35225,
+      31.416102
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-04-28T17:08:26Z",
+    "Group": 5,
+    "batteryLevel": 38
+  },
+  {
+    "Id_Phone": 38,
+    "location": [
+      51.527851,
+      31.104498
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-26T21:02:37Z",
+    "Group": 5,
+    "batteryLevel": 73
+  },
+  {
+    "Id_Phone": 39,
+    "location": [
+      48.174091,
+      38.71843
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-27T08:31:12Z",
+    "Group": 1,
+    "batteryLevel": 93
+  },
+  {
+    "Id_Phone": 40,
+    "location": [
+      45.070363,
+      35.395769
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-02-21T07:07:28Z",
+    "Group": 3,
+    "batteryLevel": 39
+  },
+  {
+    "Id_Phone": 41,
+    "location": [
+      50.882521,
+      33.313469
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-03-29T19:51:18Z",
+    "Group": 1,
+    "batteryLevel": 6
+  },
+  {
+    "Id_Phone": 42,
+    "location": [
+      49.269737,
+      27.089594
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-04-25T07:59:16Z",
+    "Group": 5,
+    "batteryLevel": 33
+  },
+  {
+    "Id_Phone": 43,
+    "location": [
+      50.906628,
+      33.676556
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-03-19T07:16:29Z",
+    "Group": 1,
+    "batteryLevel": 52
+  },
+  {
+    "Id_Phone": 44,
+    "location": [
+      51.315357,
+      32.640357
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-21T04:23:22Z",
+    "Group": 1,
+    "batteryLevel": 42
+  },
+  {
+    "Id_Phone": 45,
+    "location": [
+      50.715462,
+      35.452161
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-04T13:03:04Z",
+    "Group": 4,
+    "batteryLevel": 31
+  },
+  {
+    "Id_Phone": 46,
+    "location": [
+      45.771576,
+      28.670059
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-09T15:39:34Z",
+    "Group": 2,
+    "batteryLevel": 99
+  },
+  {
+    "Id_Phone": 47,
+    "location": [
+      49.590674,
+      27.053316
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-02-22T08:27:36Z",
+    "Group": 1,
+    "batteryLevel": 90
+  },
+  {
+    "Id_Phone": 48,
+    "location": [
+      46.87347,
+      34.79897
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-02-14T06:51:40Z",
+    "Group": 3,
+    "batteryLevel": 33
+  },
+  {
+    "Id_Phone": 49,
+    "location": [
+      50.41026,
+      25.129433
+    ],
+    "Status": "inactive",
+    "TimeStatus": "2025-03-16T02:01:27Z",
+    "Group": 2,
+    "batteryLevel": 20
+  },
+  {
+    "Id_Phone": 50,
+    "location": [
+      48.684095,
+      35.181865
+    ],
+    "Status": "active",
+    "TimeStatus": "2025-03-18T13:14:56Z",
+    "Group": 2,
+    "batteryLevel": 62
+  }
+]

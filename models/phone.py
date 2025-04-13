@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, Boolean, Time, ForeignKey, String
+from sqlalchemy import Column, Integer, Boolean, Time, ForeignKey, String, DateTime
 from sqlalchemy.orm import relationship
 from db.base import Base
 
@@ -9,7 +9,7 @@ class Phone(Base):
     geolocation = Column(Integer)
     X_coordinate = Column(String(20))
     Y_coordinate = Column(String(20))
-    timestatus = Column(Time)
+    timestatus = Column(DateTime)
     is_active = Column(Boolean, default=True)
     battery = Column(Integer, default=100)
     # group_id = Column(Integer, ForeignKey("groups.id_group"))

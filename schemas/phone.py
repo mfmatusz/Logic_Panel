@@ -1,11 +1,13 @@
 from pydantic import BaseModel, Field
 from typing import Optional
-from datetime import datetime
+from datetime import datetime, time 
+
+
 
 class PhoneBase(BaseModel):
     geolocation: Optional[int]
     # status: bool = True
-    timestatus: Optional[str] = None
+    timestatus: Optional[datetime] = None
     # group_id: Optional[int]
 
 class PhoneCreate(PhoneBase):
@@ -19,6 +21,15 @@ class Phone(PhoneBase):
         json_encoders = {
             datetime.time: lambda v: v.strftime('%H:%M:%S') if v else None
         }
+class PhoneTwo(PhoneBase):
+    id_phone: int
+
+    class Config:
+        orm_mode = True
+        json_encoders = {
+            datetime: lambda v: v.isoformat() if v else None
+        }
+                
 class StatusPayload(PhoneBase):
     id_phone: str
     battery: int

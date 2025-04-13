@@ -15,6 +15,7 @@ def get_db():
 
 @router.post("/incidents/", response_model=Incident)
 def create(incident: IncidentCreate, db: Session = Depends(get_db)):
+    print(f"Creating incident: {incident}")
     return create_incident(db, incident)
 
 @router.get("/incidents/{incident_id}", response_model=Incident)
