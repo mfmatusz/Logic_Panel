@@ -5,7 +5,7 @@ from datetime import datetime, time
 
 
 class PhoneBase(BaseModel):
-    geolocation: Optional[int]
+    # geolocation: Optional[int]
     # status: bool = True
     timestatus: Optional[datetime] = None
     # group_id: Optional[int]
@@ -35,5 +35,4 @@ class StatusPayload(PhoneBase):
     battery: int
     X_coordinate: str
     Y_coordinate: str
-    geolocation: int
-    battery: int
+    geolocation: Optional[int]
